@@ -1,0 +1,164 @@
+/* ===========כפתורי קישור================*/
+.myButton1 {
+  cursor: pointer;
+  color:rgb(250, 7, 72);
+  font-family: Arial;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+}
+body {
+  background-image: url("../Pictures/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* ===========עיצוב כיתוב================*/
+.Inst {
+  font-size: 250%;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: -1%;
+  color:rgb(250, 7, 72);
+}
+/*=============== עיצוב הכנסת שם משתמש===================*/
+h4 {
+  font-size: 6vh;
+  color:rgb(250, 7, 72);
+  text-shadow: 1px 2px 8px #ffffff;
+  text-align: center;
+  font-family: Arial;
+}
+#boardName {
+  width: 17vw;
+  height: 7vh;
+  font-size: 250%;
+  color: #ff0000;
+  text-align: center;
+  font-family: 'Forte';
+  border-width: 4px;
+  border-style: groove;
+  border-radius: 100px;
+  opacity: 0.4;
+  margin-left: 41%;
+}
+/* ===========אנימציה פתיחה=================*/
+ul {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  z-index: 10000;
+}
+ul li {
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1000%;
+  font-weight: bold;
+  animation: animate 2s infinite linear;
+  color: rgb(250, 7, 72);;
+}
+@keyframes animate {
+  0% {
+    color: rgb(250, 7, 72);;
+    text-shadow: none;
+  }
+
+  18% {
+    color: rgb(255, 7, 127);
+    text-shadow: none;
+  }
+
+  20% {
+    color: white;
+    text-shadow: 0 0 7px white, 0 0 20px white;
+  }
+
+  30% {
+    color: lightyellow;
+    text-shadow: none;
+  }
+
+  35% {
+    color:deeppink;
+    text-shadow: 0 0 7px white, 0 0 20px white;
+  }
+
+  70% {
+    color:fuchsia;
+    text-shadow: none;
+  }
+
+  85% {
+    color:hotpink;
+    text-shadow: 0 0 7px white, 0 0 20px white;
+  }
+
+  90% {
+    color:palevioletred;
+    text-shadow: none;
+  }
+
+  100% {
+    color:mediumvioletred;
+    text-shadow: none;
+  }
+}
+ul li:nth-child(1) {
+  animation-delay: 0s;
+}
+ul li:nth-child(2) {
+  animation-delay: 1s;
+}
+ul li:nth-child(3) {
+  animation-delay: 2s;
+}
+ul li:nth-child(4) {
+  animation-delay: 3s;
+}
+ul li:nth-child(5) {
+  animation-delay: 4s;
+}
+ul li:nth-child(6) {
+  animation-delay: 5s;
+}
+ul li:nth-child(7) {
+  animation-delay: 6s;
+}
+ul li:nth-child(8) {
+  animation-delay: 0s;
+}
+ul li:nth-child(9) {
+  animation-delay: 1s;
+}
+ul li:nth-child(10) {
+  animation-delay: 2s;
+}
+ul li:nth-child(11) {
+  animation-delay: 3s;
+}
+ul li:nth-child(12) {
+  animation-delay: 4s;
+}
+ul li:nth-child(13) {
+  animation-delay: 5s;
+}
+ul li:nth-child(14) {
+  animation-delay: 6s;
+}
+
+#choose{
+  background:none ;
+  position: fixed;
+  margin-left: 34%;
+  color: red;
+  font-weight: 600;
+  font-size: xx-large;
+  height: 40px;
+  border-radius: 60px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

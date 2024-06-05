@@ -1,0 +1,140 @@
+/*=============עיצוב רקע ============*/
+html {
+  height: 100%;
+}
+body {
+  background-image: url("../Pictures/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -5%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*===============עיצוב כותרת==================*/
+.title{
+  color:#cd184b;
+  font-size: 300%;
+}
+/*===============עיצוב טבלה וכפתורי פעולה שונים ==================*/
+.game {
+  box-shadow: 0 1% 4% #cd184b;
+  padding: 1%;
+  background-color: #cd184b;
+  border-radius: 5%;
+}
+.game1 {
+  box-shadow: 0 1% 4% #cd184b;
+  padding: 10%;
+  margin-left: -10%;
+  background-color: #cd184b;
+  border-radius: 5%;
+}
+.grid1 {
+  display: grid;
+  margin-left: -4%;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px 20px;
+  border: 1% solid #cd184b;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px 80px;
+  border: 1% solid #cd184b;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px 80px 80px;
+  border: 1% solid #cd184b;
+}
+.grid1 button {
+  background-color: #f7f7f7;
+  color: #cd184b;
+  font-size: 150%;
+  font-weight: bold;
+  border: 1px solid #cd184b;
+  outline: none;
+  cursor: pointer;
+}
+.grid2 button {
+  background-color: #f7f7f7;
+  color: #cd184b;
+  font-size: 150%;
+  font-weight: bold;
+  border: 1px solid #cd184b;
+  outline: none;
+  cursor: pointer;
+}
+.grid3 button {
+  background-color: #f7f7f7;
+  color: #cd184b;
+  font-size: 150%;
+  font-weight: bold;
+  border: 1px solid #cd184b;
+  outline: none;
+  cursor: pointer;
+}
+/*===========עיצוב כפתורי הספרות============*/
+.footer {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer button {
+  border: none;
+  font-size: 120%;
+  font-weight: bold;
+  border-radius: 3%;
+  box-shadow: 0 3% 4% #cd184b;
+  padding: 3%;
+  width: 30%;
+  background-color: #d4ee9f;
+  color: #cd184b;
+  outline: none;
+  cursor: pointer;
+}
+.footer span {
+  flex: 1;
+  text-align: center;
+  font-size: 120%;
+  color: #d4ee9f;
+  font-weight: bold;
+  margin: auto 0;
+}
+/*=========עיצוב דף ניצחון*/
+#winStyle {
+	background-image: url('../Pictures/won.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:-10%;
+}
+#winText {
+	color: white;
+	font-family: 'Forte';
+	font-size: 120px;
+	border-color:black;
+	text-align:center;
+	background-position-y:center;
+  padding-top: 10%;
+}
+#points {
+	color: red;
+	font-family: 'Gill Sans';
+	font-size: 50px;
+	border-color:black;
+	text-align:center;
+	background-position-y:center;
+  font-weight: 600;
+}
+.myButton1 {
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+}
